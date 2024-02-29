@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    public class WatchWorldDbContext: DbContext
+    public class WatchWorldContext : DbContext
     {
-        public WatchWorldDbContext(DbContextOptions<WatchWorldDbContext> options) : base(options)
+        public WatchWorldContext(DbContextOptions<WatchWorldContext> options) : base(options)
         {
 
         }
